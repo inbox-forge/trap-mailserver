@@ -1,0 +1,98 @@
+{
+    "mailFrom": {
+        "address": "sumanta@sumanta.space",
+        "args": false
+    },
+    "rcptTo": [
+        {
+            "address": "sumantablog@gmail.com",
+            "args": false
+        }
+    ],
+    "data": {
+        "attachments": [
+            {
+                "type": "attachment",
+                "content": {
+                    "type": "Buffer",
+                    "data": [
+                        104,
+                        105,
+                        32,
+                        104,
+                        101,
+                        108,
+                        108,
+                        111,
+                        119
+                    ]
+                },
+                "contentType": "text/plain",
+                "partId": "2",
+                "release": null,
+                "contentDisposition": "attachment",
+                "filename": "text.txt",
+                "headers": {},
+                "checksum": "fa663099601468501ee60acabcf5f837",
+                "size": 9
+            }
+        ],
+        "headers": {},
+        "headerLines": [
+            {
+                "key": "content-type",
+                "line": "Content-Type: multipart/mixed; boundary=\"--_NmP-7d41e467f58a9cd9-Part_1\""
+            },
+            {
+                "key": "from",
+                "line": "From: sumanta@sumanta.space"
+            },
+            {
+                "key": "to",
+                "line": "To: sumantablog@gmail.com"
+            },
+            {
+                "key": "subject",
+                "line": "Subject: Test Email"
+            },
+            {
+                "key": "message-id",
+                "line": "Message-ID: <1fc0f629-20d1-f09a-c4b6-1f89d5af63e3@sumanta.space>"
+            },
+            {
+                "key": "date",
+                "line": "Date: Fri, 16 Feb 2024 10:29:46 +0000"
+            },
+            {
+                "key": "mime-version",
+                "line": "MIME-Version: 1.0"
+            }
+        ],
+        "text": "Hello World",
+        "textAsHtml": "<p>Hello World</p>",
+        "subject": "Test Email",
+        "date": "2024-02-16T10:29:46.000Z",
+        "to": {
+            "value": [
+                {
+                    "address": "sumantablog@gmail.com",
+                    "name": ""
+                }
+            ],
+            "html": "<span class=\"mp_address_group\"><a href=\"mailto:sumantablog@gmail.com\" class=\"mp_address_email\">sumantablog@gmail.com</a></span>",
+            "text": "sumantablog@gmail.com"
+        },
+        "from": {
+            "value": [
+                {
+                    "address": "sumanta@sumanta.space",
+                    "name": ""
+                }
+            ],
+            "html": "<span class=\"mp_address_group\"><a href=\"mailto:sumanta@sumanta.space\" class=\"mp_address_email\">sumanta@sumanta.space</a></span>",
+            "text": "sumanta@sumanta.space"
+        },
+        "messageId": "<1fc0f629-20d1-f09a-c4b6-1f89d5af63e3@sumanta.space>",
+        "html": false
+    }
+}
